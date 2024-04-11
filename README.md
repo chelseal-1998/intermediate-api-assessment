@@ -2,7 +2,7 @@
 
 #### INTRODUCTION
 
-In this project I am automating an API using a Base Framework, the Framework I implemented is an API test automation 
+In this project I am automating an API using a Base Framework, the Framework I implemented is an API test automation
 framework built on Java and uses Rest Assured.
 
 #### PRE-REQUISITES
@@ -15,7 +15,7 @@ framework built on Java and uses Rest Assured.
 API restful-booker:https://restful-booker.herokuapp.com/apidoc/index.html
 
 #### FRAMEWORK TEST STRUCTURE
-Each section's tests are contained within a package, each package has a base class to allow for ease of maintainability 
+Each section's tests are contained within a package, each package has a base class to allow for ease of maintainability
 and above all, adhering to the DRY(Don't Repeat Yourself) principle.
 
 #### BaseTest
@@ -27,9 +27,9 @@ to be able to run the tests.
 Contains all the TestData needed for the tests to run.
 
 ### Running tests locally (Command Line or IDE:) ###
-1. Execute the following commands in your IDE terminal:
-   In Windows terminal: ./gradlew test
-   In Mac terminal: gradlew test
+Execute the following commands in your IDE terminal:
+* In Windows terminal: ./gradlew test
+* In Mac terminal: gradlew test
 
 #### REPORTING
 A test report is generated after each run in the /build/reports/tests/index.html folder in the base repository of the repo.
